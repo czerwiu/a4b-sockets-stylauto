@@ -1,5 +1,5 @@
 
-package com.assecobs.a4b.sockets.stylauto;
+package com.assecobs.a4b.sockets.stylauto.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

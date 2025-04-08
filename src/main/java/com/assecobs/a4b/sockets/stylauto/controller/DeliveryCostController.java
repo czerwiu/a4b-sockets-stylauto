@@ -1,6 +1,9 @@
 
-package com.assecobs.a4b.sockets.stylauto;
+package com.assecobs.a4b.sockets.stylauto.controller;
 
+import com.assecobs.a4b.sockets.stylauto.model.DeliveryRequest;
+import com.assecobs.a4b.sockets.stylauto.model.DeliveryResponse;
+import com.assecobs.a4b.sockets.stylauto.model.OrderPosition;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
