@@ -9,6 +9,7 @@ public class DeliveryCostController {
 
     @PostMapping
     public DeliveryResponse calculateDelivery(@RequestBody DeliveryRequest request) {
+
         int totalQty = request.getOrderPositions().stream()
                 .mapToInt(OrderPosition::getQuantity)
                 .sum();
